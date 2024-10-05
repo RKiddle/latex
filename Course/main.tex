@@ -1,0 +1,153 @@
+\documentclass{article}
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{ragged2e}
+\usepackage{lipsum}
+\usepackage{setspace}
+
+\usepackage{enumerate}
+\usepackage{amssymb}
+
+\usepackage{amsmath}
+
+\begin{document}
+	\pagecolor{Goldenrod!50}
+	
+	\textcolor{red}{My text is in red color}   
+    
+	\textcolor{blue}{My text is in blue color}       
+	\\
+	
+	\textcolor{red!50!blue}{This text is a mixture of red and blue colors}
+	
+	\textcolor{Plum}{Plum is my favourite fruit}
+
+
+	\section{one}
+	\begin{flushleft}
+		\lipsum[2-2]
+	\end{flushleft}
+	
+	\section{two}
+	\begin{center}
+		\lipsum[2-2]
+	\end{center}
+	
+	\section{three}
+	\begin{flushright}
+		\lipsum[2-2]
+	\end{flushright}
+
+	\pagebreak
+
+	\centering
+	\lipsum[1-1]
+	
+	\flushleft
+	\lipsum[2-2]
+	
+	\flushright
+	\lipsum[3-3]
+	
+	\justify
+	\lipsum[4-4]
+	
+	%\doublespacing
+	\begin{doublespace}
+		\lipsum[1-2]
+	\end{doublespace}
+	
+	\lipsum[1-2]
+	
+	\pagebreak
+	
+	\lipsum[2-2]
+	\smallskip
+	
+	\lipsum[2-2]
+	\medskip
+	
+	\lipsum[2-2]
+	\bigskip
+	
+	\lipsum[2-2]
+	\vspace{20pt}
+	
+	\lipsum[2-2]
+	
+	\pagebreak
+	
+	\lipsum[2-2]
+	\vfill
+	
+	\lipsum[2-2]
+	\vfill
+	
+	\lipsum[2-2]
+
+	\pagebreak
+	
+	\noindent
+	\LaTeX \ Document \\	
+	\LaTeX \, Document \\	
+	\LaTeX \hfill Document \\
+	
+	\renewcommand{\labelitemi}{$\diamond$}
+	\renewcommand{\labelitemii}{$\blacksquare$}
+	\section{Standard Colors}
+	\begin{itemize}
+		\item red
+		\begin{itemize}
+			\item Brick red
+			\item Post office red
+			\item Blood red
+		\end{itemize}
+		\item blue
+		\begin{enumerate}[i.]
+			\item Sky blue
+			\item Firuza
+		\end{enumerate}
+		\item green
+		\item yellow
+		\item black
+	\end{itemize}
+	
+	\section{More Colors}
+	\begin{enumerate}
+		\item Maroon
+		\item Cyan
+		\item Brown
+		\item Plum
+	\end{enumerate}
+	
+	\section{Description List}
+	\begin{description}
+		\item[Input Devices:] Keyboard, mouse
+		\item[Output Devices] Printer, monitor
+	\end{description}
+
+
+
+	\section{Basic Mathematics}
+    \paragraph{}
+    This session covers typesetting mathematics in LaTeX. This text contains two mathematical expressions: $ 2^{2} + 2^{2} = 8$ and $ 2 \times 2 = 4$
+    
+    \[  \cos^2 \theta + \sin^2 \theta = 1 \]
+    
+    The union of two sets A and B is denoted as 
+    $ A \cup B = \{ x \in A \ \text{or} \ x \in B \} $
+    
+    We are learning fractions $ \frac{a}{ \frac{b}{c} } \times \frac{\frac{d}{e}}{f} \geq 1 $ which is good.
+    
+    \[ \frac{a}{ \frac{b}{c} } \times \frac{\frac{d}{e}}{f} \geq 1 \]
+    
+    \[ \Bigg\{ \bigg(\frac{a}{b}\bigg) + \bigg(\frac{c}{d}\bigg) \Bigg\} \]
+    
+    \[ \sum_{i=a}^{b} g(i) = 0, \text{for } b < a  \]
+    
+    \[ \sum_{i=1}^{n} i = \frac{n(n+1)}{2} \]
+
+    \[ \prod_{i=1}^{n} i = \frac{n(n+1)}{2} \]
+\end{document}
+
+

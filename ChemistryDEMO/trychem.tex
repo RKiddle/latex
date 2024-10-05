@@ -1,0 +1,37 @@
+
+\documentclass[a4paper,11pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\title{Chemistry}
+\author{Richard}
+
+\begin{document}
+
+\maketitle
+
+The famous water molecule: \[\ce{ H2O }\]
+
+Here is an ion \(\ce{ H+ } \) and here are two anions \(\ce{ O- }\) and \(\ce{ O^2- } \) 
+
+ Photosynthesis reaction: \[\ce{6 CO2 + 6 H2O + light -> C6H12O6 + 6 O2}\]
+
+Carbon dioxide bonds: \(\ce{ C=O=C }\)
+
+\begin{center}
+\chemfig{A-B}\\
+\chemfig{A=B}\\
+\chemfig{A~B}\\
+\chemfig{A>B}\\
+\chemfig{A<B}\\
+\chemfig{A>:B}\\
+\chemfig{A<:B}\\
+\chemfig{A>|B}\\
+\chemfig{A<|B}\\
+
+\end{center}
+
+
+\end{document}
